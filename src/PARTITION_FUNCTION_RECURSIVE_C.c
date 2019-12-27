@@ -17,7 +17,7 @@
 
 #define MAX_NUMBER_TO_BE_PARTITIONED 5
 
-// function pointer type for a function to handle the current partttion of the number to be partitioned
+// function pointer type for a function to handle the current partition of the number to be partitioned
 typedef void (*OnePartitionHandler_fp) (
 		// number to be partitioned
 		const int numberToPartitioned,
@@ -93,7 +93,10 @@ void executeForPartitionFunction(
  * Test and example for using the function
  */
 
-// function to execute for every partition
+// Function to execute for every partition.
+// Implementation of OnePartitionHandler_fp
+// Schreibe Deine eigene Funktion, die fuer jede Integer Partitionierung ausgefuehrt werden soll.
+// Write your own function that should be performed for each integer partitioning.
 void printCurrentPartition(
 		// number to be partitioned
 		const int numberToPartitioned,
@@ -108,7 +111,7 @@ void printCurrentPartition(
 	fflush(stdout);
 }
 
-// main
+// main for test
 int main(void)
 {
 	// loop over all numbers to be partitioned
