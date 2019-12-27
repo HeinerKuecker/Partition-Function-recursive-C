@@ -76,7 +76,7 @@ void executeForPartitionFunction(
 {
 	int entirePartitionArray[MAX_NUMBER_TO_BE_PARTITIONED + 1];
 
-	for (int i = 0; i < (MAX_NUMBER_TO_BE_PARTITIONED + 1); ++i)
+	for (int i = 0; i <= MAX_NUMBER_TO_BE_PARTITIONED; ++i)
 	{
 		entirePartitionArray[i] = 0;
 	}
