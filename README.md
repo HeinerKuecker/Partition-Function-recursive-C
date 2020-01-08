@@ -117,3 +117,4 @@ Du kannst dieses Projekt in Eclipse CDT importieren.
 
 You can import this project into Eclipse CDT.
 
+See also my Repository [Partition-Function-Iterator-C](https://github.com/HeinerKuecker/Partition-Function-Iterator-C).
