@@ -113,3 +113,7 @@ Die aktuelle Partitionierung wird als 0-terminiertes Array übergeben.
 
 The current partitioning is passed as a 0-terminated array.
 
+Du kannst dieses Projekt in Eclipse CDT importieren.
+
+You can import this project into Eclipse CDT.
+
