@@ -1,7 +1,7 @@
 # Partition-Function-recursive-C
 Partition Function or Integer Partition recursive in C
 
-Jede Integer Partitionierung wird in jeder möglichen Reihenfolge erzeugt.
+Jede Integer Partitionierung wird in jeder moeglichen Reihenfolge erzeugt.
 
 Every integer partitioning is created in every possible order.
 
